@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230727/pngtree-sunset-in-a-rural-field-of-ripening-wheat-image_10229040.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    color: #fff;
+}
+
+.des {
+    color: #fff;
+}
+
+.submit_container {
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(236, 50, 4);
+}
+
+.submit {
+    background-color: rgb(236, 50, 4);
+    color: #fff;
+    border: none;
+}
+
+.submit_container:hover {
+    cursor: pointer;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
